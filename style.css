@@ -1,0 +1,61 @@
+.general-container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.general-text {
+    font-size: 16px;
+    font-family: Consolas;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    font-family: Consolas;
+}
+
+header img {
+    display: block;
+    max-width: 50%;
+    margin: auto;
+    padding: 16px;
+}
+
+header {
+    background-color: gray;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
