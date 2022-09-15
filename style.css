@@ -117,9 +117,14 @@ footer a:hover {
     text-decoration: underline;
 }
 
+.contact-mail{
+    color: var(--navBarColor);
+}
+
 .contact-card {
     margin: 8px;
     padding-right: 24px;
+    padding-bottom: 8px;
     border: 1px solid black;
     background-color: white;
     display: flex;
@@ -127,6 +132,11 @@ footer a:hover {
     min-width: 400px;
     width: fit-content;
     text-align: left;
+}
+
+.contact-card p {
+    padding: 0px;
+    margin: 0px;
 }
 
 .contact-card img {
