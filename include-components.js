@@ -61,33 +61,74 @@ document.body.prepend(getHeader());
 document.body.prepend(getHeaderLogo());
 document.body.appendChild(getFooter());
 
+const getMembers = () => {
+    const members = [];
+    const isak = {
+        img: "johndoe.png",
+        name: "Isak Horvath",
+        pos: "Webmaster",
+        mail: "webmaster@d-sektionen.se",
+        des: "Kontakta mig vid allmänna frågor om webbutskottet och dess verksamhet."
+    };
+    members.push(isak);
+    const cajsa = {
+        img: "johndoe.png",
+        name: "Cajsa Wargren",
+        pos: "Utvecklare / Event",
+        mail: "cajsa.wargren@d-sektionen.se",
+        des: "Har du frågor om eventet kontakta mig så vidarebefordrar jag till webmaster."
+    };
+    members.push(cajsa);
+    const thea = {
+        img: "johndoe.png",
+        name: "Thea Borg",
+        pos: "Utvecklare / PR",
+        mail: "thea.borg@d-sektionen.se",
+        des: "Kontakta mig om du vill ha kontakt med mig! :)"
+    };
+    members.push(thea);
+    return members;
+};
 
-const getContactBox= (c)=>{
-    const div = document.createElement("a");
 
-//     <div class="contact-card">
-//     <img src="johndoe.png">
-//     <div>
-//     <h2>
-//         Isak Horvath </br> <span class="position">Webmaster</span>
-//     </h2>
-//     <p>
-//         webmaster@d-sektionen.se
-//     </p>
-//     <!--“kontakta mig vid allmänna frågor om webbutskottet och dess verksamhet”-->
-//     </div>
-// </div>
+const getContactBox= c => {
+    const div = document.createElement("div");
     div.className = "contact-card";
+    const img = document.createElement("img");
+    img.src = c.img;
+    const div2 = document.createElement("div");
 
+    const h2 = document.createElement("h2");
+    h2.innerText = c.name + "\n";
+    const span = document.createElement("span");
+    span.className = "position";
+    span.innerText = c.pos;
+    h2.appendChild(span);
+    div2.appendChild(h2);
 
+    const p = document.createElement("p");
+    p.innerText = c.des;
+    div2.appendChild(p);
+
+    const a = document.createElement("a");
+    a.className = "contact-mail";
+    a.href = "mailto:" + c.mail;
+    a.innerText =  c.mail;
+    div2.appendChild(a);
+
+    div.appendChild(img);
+    div.appendChild(div2);
     return div;
 };
+
 const fillContacts = ()=>{
     if(getLoc() != "contact")
         return;
-    const cs = [];
-    for (const c of cs) {
-        getContactBox(c);
+    const mainBox = document.getElementById("contactWrapper");
+    console.log(mainBox);
+    for (const c of getMembers()) {
+        mainBox.appendChild(getContactBox(c));
     }
 };
+
 fillContacts();
