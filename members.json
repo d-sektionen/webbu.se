@@ -1,0 +1,58 @@
+[
+    {
+        "img": "johndoe.png",
+        "name": "Isak Horvath",
+        "pos": "Webmaster",
+        "mail": "webmaster@d-sektionen.se",
+        "des": "Kontakta mig vid allmänna frågor om webbutskottet och dess verksamhet."
+    },
+    {
+        "img": "johndoe.png",
+        "name": "Cajsa Wargren",
+        "pos": "Utvecklare / Event",
+        "mail": "cajsa.wargren@d-sektionen.se",
+        "des": "Har du frågor om eventet kontakta mig så vidarebefordrar jag till webmaster."
+    },
+    {
+        "img": "johndoe.png",
+        "name": "Thea Borg",
+        "pos": "Utvecklare / PR",
+        "mail": "thea.borg@d-sektionen.se",
+        "des": "Kontakta mig om du vill ha kontakt med mig! :)"
+    },
+    {
+        "img": "johndoe.png",
+        "name": "Therese Selberg",
+        "pos": "Utvecklare / Tryck",
+        "mail": "",
+        "des": "Det är förmodligen inte mig du vill kontakta, men du får det om du vill."
+    },
+    {
+        "img": "johndoe.png",
+        "name": "Johan Holtz",
+        "pos": "Backendutv. / Spons",
+        "mail": "",
+        "des": "Kontakta mig om frågor gällande Spons!"
+    },
+    {
+        "img": "johndoe.png",
+        "name": "Erik Ekelöf",
+        "pos": "Underhållsutv. / Tekniker",
+        "mail": "",
+        "des": ""
+    },
+    {
+        "img": "johndoe.png",
+        "name": "Viktor Holta",
+        "pos": "Underhållsutv. / Info",
+        "mail": "",
+        "des": ""
+    },
+    {
+        "img": "johndoe.png",
+        "name": "Felix Lindgren",
+        "pos": "Adminutv. / Tekniker",
+        "mail": "",
+        "des": ""
+    }
+]

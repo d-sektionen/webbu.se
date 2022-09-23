@@ -1,10 +1,10 @@
-const getLoc=()=>{
+const getLoc = () => {
     const arr = window.location.href.split("/");
     return arr[arr.length - 1].split(".")[0];
 }
 
-const getHeaderLogo = ()=>{
-    const logoImg= document.createElement("img");
+const getHeaderLogo = () => {
+    const logoImg = document.createElement("img");
     logoImg.src = "webbu-logo-inverted.png";
     const logoA = document.createElement("a");
     logoA.href = "index.html";
@@ -14,7 +14,7 @@ const getHeaderLogo = ()=>{
     return header;
 };
 
-const getNavA= (text, href, selected)=>{
+const getNavA = (text, href, selected) => {
     const nav = document.createElement("a");
     nav.innerText = text;
     nav.href = href;
@@ -22,14 +22,14 @@ const getNavA= (text, href, selected)=>{
     return nav;
 };
 
-const getHeader = ()=>{
-    const loc =getLoc();
+const getHeader = () => {
+    const loc = getLoc();
 
-    const navA1 = getNavA("Om oss","index.html", loc=="index" || loc=="");
-    const navA2 = getNavA("Tjänster","services.html", loc=="services");
-    const navA3 = getNavA("Hackathon","hackathon.html", loc=="hackathon");
-    const navA4 = getNavA("Kontakt","contact.html", loc=="contact");
-    
+    const navA1 = getNavA("Om oss", "index.html", loc == "index" || loc == "");
+    const navA2 = getNavA("Tjänster", "services.html", loc == "services");
+    const navA3 = getNavA("Hackathon", "hackathon.html", loc == "hackathon");
+    const navA4 = getNavA("Kontakt", "contact.html", loc == "contact");
+
     const nav = document.createElement("nav");
     nav.appendChild(navA1);
     nav.appendChild(navA2);
@@ -42,7 +42,7 @@ const getHeader = ()=>{
     return navBar;
 };
 
-const getFooter = ()=>{
+const getFooter = () => {
     const footerA = document.createElement("a");
     footerA.href = "mailto:webmaster@d-sektionen.se";
     footerA.textContent = "webmaster@d-sektionen.se";
@@ -61,37 +61,7 @@ document.body.prepend(getHeader());
 document.body.prepend(getHeaderLogo());
 document.body.appendChild(getFooter());
 
-const getMembers = () => {
-    const members = [];
-    const isak = {
-        img: "johndoe.png",
-        name: "Isak Horvath",
-        pos: "Webmaster",
-        mail: "webmaster@d-sektionen.se",
-        des: "Kontakta mig vid allmänna frågor om webbutskottet och dess verksamhet."
-    };
-    members.push(isak);
-    const cajsa = {
-        img: "johndoe.png",
-        name: "Cajsa Wargren",
-        pos: "Utvecklare / Event",
-        mail: "cajsa.wargren@d-sektionen.se",
-        des: "Har du frågor om eventet kontakta mig så vidarebefordrar jag till webmaster."
-    };
-    members.push(cajsa);
-    const thea = {
-        img: "johndoe.png",
-        name: "Thea Borg",
-        pos: "Utvecklare / PR",
-        mail: "thea.borg@d-sektionen.se",
-        des: "Kontakta mig om du vill ha kontakt med mig! :)"
-    };
-    members.push(thea);
-    return members;
-};
-
-
-const getContactBox= c => {
+const getContactBox = c => {
     const div = document.createElement("div");
     div.className = "contact-card";
     const img = document.createElement("img");
@@ -113,7 +83,7 @@ const getContactBox= c => {
     const a = document.createElement("a");
     a.className = "contact-mail";
     a.href = "mailto:" + c.mail;
-    a.innerText =  c.mail;
+    a.innerText = c.mail;
     div2.appendChild(a);
 
     div.appendChild(img);
@@ -121,12 +91,14 @@ const getContactBox= c => {
     return div;
 };
 
-const fillContacts = ()=>{
-    if(getLoc() != "contact")
+const fillContacts = async () => {
+    if (getLoc() != "contact")
         return;
     const mainBox = document.getElementById("contactWrapper");
-    console.log(mainBox);
-    for (const c of getMembers()) {
+    const response = await fetch('/members.json');
+    const members = await response.json();
+    console.log(members);
+    for (const c of members) {
         mainBox.appendChild(getContactBox(c));
     }
 };
