@@ -5,7 +5,7 @@ const getLoc = () => {
 
 const getHeaderLogo = () => {
     const logoImg = document.createElement("img");
-    logoImg.src = "webbu-logo-inverted.png";
+    logoImg.src = "files/webbu-logo-inverted.png";
     const logoA = document.createElement("a");
     logoA.href = "index.html";
     logoA.appendChild(logoImg);
@@ -95,9 +95,8 @@ const fillContacts = async () => {
     if (getLoc() != "contact")
         return;
     const mainBox = document.getElementById("contactWrapper");
-    const response = await fetch('/members.json');
+    const response = await fetch('/files/members.json');
     const members = await response.json();
-    console.log(members);
     for (const c of members) {
         mainBox.appendChild(getContactBox(c));
     }
