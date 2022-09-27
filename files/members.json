@@ -24,35 +24,35 @@
         "img": "files/johndoe.png",
         "name": "Therese Selberg",
         "pos": "Utvecklare / Tryck",
-        "mail": "",
+        "mail": "therese.selberg@d-sektionen.se",
         "des": "Det är förmodligen inte mig du vill kontakta, men du får det om du vill."
     },
     {
         "img": "files/johndoe.png",
         "name": "Johan Holtz",
         "pos": "Backendutv. / Spons",
-        "mail": "",
+        "mail": "johan.holtz@d-sektionen.se",
         "des": "Kontakta mig om frågor gällande Spons!"
     },
     {
         "img": "files/johndoe.png",
         "name": "Erik Ekelöf",
         "pos": "Underhållsutv. / Tekniker",
-        "mail": "",
+        "mail": "erik.ekelof@d-sektionen.se",
         "des": ""
     },
     {
         "img": "files/johndoe.png",
         "name": "Viktor Holta",
         "pos": "Underhållsutv. / Info",
-        "mail": "",
-        "des": ""
+        "mail": "viktor.holta@d-sektionen.se",
+        "des": "Om du vill ha information om informationen här, kontakta mig."
     },
     {
         "img": "files/johndoe.png",
         "name": "Felix Lindgren",
         "pos": "Adminutv. / Tekniker",
-        "mail": "",
+        "mail": "felix.lindgren@d-sektionen.se",
         "des": ""
     }
 ]
