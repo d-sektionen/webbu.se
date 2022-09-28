@@ -157,3 +157,29 @@ footer a:hover {
 .position {
     font-size: 16px;
 }
+
+.hackathon-header-wrapper {
+    position: relative;
+    margin: 1.34em 0; /* Same as h1 (2 * 0.67em) */
+    background: no-repeat url("hackathon-header.png");
+    background-size: 100%;
+    z-index: -1; /* Prevents it from appearing above navigation bar */
+}
+.hackathon-header-wrapper > img { 
+    width: 100%;
+    visibility: hidden;
+    vertical-align: top;
+}
+.hackathon-header-wrapper > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column-reverse; /* Places heading at bottom */
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), transparent 60%);
+    color: white;
+}
