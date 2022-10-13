@@ -1,6 +1,6 @@
-:root{
+:root {
     --navBarColor: #3A8A31;
-    --navBarHoverColor: #296323;   
+    --navBarHoverColor: #296323;
 }
 
 @font-face {
@@ -24,7 +24,8 @@
 .wide-container {
     width: 90%;
     margin: auto;
-    margin-bottom: 50px; /* height of footer + height of margin-top */
+    margin-bottom: 50px;
+    /* height of footer + height of margin-top */
     margin-top: 10px;
     text-align: center;
     display: flex;
@@ -117,7 +118,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.contact-mail{
+.contact-mail {
     color: var(--navBarColor);
 }
 
@@ -138,8 +139,11 @@ footer a:hover {
 }
 
 .contact-card img {
+    position: relative;
+    top: 12px;
+    margin: 8px;
     height: 128px;
-    flex-direction: row;
+    border-radius: 4px;
 }
 
 .service-card {
@@ -160,17 +164,21 @@ footer a:hover {
 
 .hackathon-header-wrapper {
     position: relative;
-    margin: 1.34em 0; /* Same as h1 (2 * 0.67em) */
+    margin: 1.34em 0;
+    /* Same as h1 (2 * 0.67em) */
     background: no-repeat url("hackathon-header.png");
     background-size: 100%;
-    z-index: -1; /* Prevents it from appearing above navigation bar */
+    z-index: -1;
+    /* Prevents it from appearing above navigation bar */
 }
-.hackathon-header-wrapper > img { 
+
+.hackathon-header-wrapper>img {
     width: 100%;
     visibility: hidden;
     vertical-align: top;
 }
-.hackathon-header-wrapper > div {
+
+.hackathon-header-wrapper>div {
     position: absolute;
     top: 0;
     left: 0;
@@ -178,7 +186,8 @@ footer a:hover {
     right: 0;
 
     display: flex;
-    flex-direction: column-reverse; /* Places heading at bottom */
+    flex-direction: column-reverse;
+    /* Places heading at bottom */
 
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), transparent 60%);
     color: white;
