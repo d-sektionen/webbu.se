@@ -10,6 +10,7 @@ const getHeaderLogo = () => {
     logoA.href = "index.html";
     logoA.appendChild(logoImg);
     const header = document.createElement("header");
+    header.id = 'theheader';
     header.appendChild(logoA);
     return header;
 };
