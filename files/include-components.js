@@ -5,11 +5,13 @@ const getLoc = () => {
 
 const getHeaderLogo = () => {
     const logoImg = document.createElement("img");
-    logoImg.src = "files/webbu-logo-inverted.png";
+    //logoImg.src = "files/webbu-logo-inverted.png";
+    logoImg.src = "files/webbu-logo-christmas.png";
     const logoA = document.createElement("a");
     logoA.href = "index.html";
     logoA.appendChild(logoImg);
     const header = document.createElement("header");
+    header.id = 'theheader';
     header.appendChild(logoA);
     return header;
 };
