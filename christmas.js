@@ -16,7 +16,7 @@ const createGarland = () => {
     const garlandContainer = document.getElementById('theheader');
     const garland = document.createElement('img');
     garland.className = 'christmas-garland';
-    garland.src = 'files/christmas-Holly.png'
+    garland.src = 'files/christmas-Holly.png';
     garlandContainer.prepend(garland);
     const garland_mirror = document.createElement('img');
     garland_mirror.className = 'christmas-garland-mirror';
