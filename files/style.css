@@ -8,30 +8,39 @@
     src: url(urw_gothic_l_demi.ttf);
 }
 
-
-.left-text {
-    text-align: left;
+main {
+    margin: auto;
+    margin-bottom: 50px; /* height of footer + height of margin-top */
+    text-align: center; /* TODO: specify on text elements instead */
 }
 
-.general-container {
+main.general {
     width: 700px;
     max-width: 90%;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 50px;
 }
 
-.wide-container {
-    width: 90%;
-    margin: auto;
-    margin-bottom: 50px;
-    /* height of footer + height of margin-top */
-    margin-top: 10px;
-    text-align: center;
+main.contact {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    
+    margin-top: 10px;
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.left-text {
+    text-align: left;
 }
 
 .selected {
