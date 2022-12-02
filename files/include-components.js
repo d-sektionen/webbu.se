@@ -37,11 +37,7 @@ const getHeader = () => {
     nav.appendChild(navA2);
     nav.appendChild(navA3);
     nav.appendChild(navA4);
-
-    const navBar = document.createElement("div");
-    navBar.appendChild(nav);
-    navBar.id = "navBar";
-    return navBar;
+    return nav;
 };
 
 const getFooter = () => {

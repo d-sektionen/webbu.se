@@ -8,6 +8,42 @@
     src: url(urw_gothic_l_demi.ttf);
 }
 
+header {
+    background-color: black;
+}
+
+header img {
+    display: block;
+    margin: auto;
+    padding: 16px;
+    max-width: 30%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 4px solid var(--navBarColor);
+    width: 100%;
+    
+    background-color: rgb(0, 0, 0);
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--navBarHoverColor);
+}
+
 main {
     margin: auto;
     margin-bottom: 50px; /* height of footer + height of margin-top */
@@ -64,45 +100,8 @@ body {
     /*(205, 219, 203)*/
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    border-bottom: 4px solid var(--navBarColor);
-}
-
-#navBar {
-    background-color: rgb(0, 0, 0);
-    top: 0;
-    position: sticky;
-    z-index: 1;
-}
-
-nav a {
-    display: block;
-    padding: 8px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-nav a:hover {
-    background-color: var(--navBarHoverColor);
-}
-
 h1 {
     font-size: 24px;
-}
-
-header img {
-    display: block;
-    max-width: 30%;
-    margin: auto;
-    padding: 16px;
-}
-
-header {
-    background-color: black;
 }
 
 footer {
