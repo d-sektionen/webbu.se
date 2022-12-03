@@ -39,12 +39,15 @@ nav {
 }
 
 main {
-    margin: auto;
-    margin-bottom: 50px; /* height of footer + height of margin-top */
+    margin: 16px auto 60px; /* bottom = height of footer + height of footer border + height of top */
     text-align: center; /* TODO: specify on text elements instead */
 }
 
 main.general {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
     width: 700px;
     max-width: 90%;
 }
@@ -54,8 +57,8 @@ main.contact {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 16px;
     
-    margin-top: 10px;
     width: 90%;
 }
 
@@ -75,19 +78,15 @@ footer {
     border-top: 4px solid var(--navBarColor);
 }
 
-.contact-card { /* TODO: check */
-    margin: 8px;
+.contact-card {
+    display: flex;
     padding-right: 24px;
     padding-bottom: 8px;
-    background-color: white;
-    display: flex;
-    max-width: 90%;
     width: 400px;
+    max-width: 90%;
+    
+    background-color: white;
     text-align: left;
-}
-
-.service-card { /* TODO: check */
-    padding-bottom: 10px;
 }
 
 /*
@@ -147,21 +146,17 @@ footer a:hover {
     color: var(--navBarColor);
 }
 
-.service-card h1 { /* TODO: check */
-    text-align: center;
+article > *:first-child {
+    margin-top: 0;
 }
 
-.service-card-content { /* TODO: check */
-    text-align: left;
+article > *:last-child {
+    margin-bottom: 0;
 }
 
 /*
  * General elements
  */
-
-h1 {
-    font-size: 24px; /* TODO: use rem instead */
-}
 
 hr {
     border-width: 4px 0 0 0;
