@@ -5,8 +5,7 @@ const getLoc = () => {
 
 const getHeaderLogo = () => {
     const logoImg = document.createElement("img");
-    //logoImg.src = "files/webbu-logo-inverted.png";
-    logoImg.src = "files/webbu-logo-christmas.png";
+    logoImg.src = "files/webbu-logo-inverted.png";
     const logoA = document.createElement("a");
     logoA.href = "index.html";
     logoA.appendChild(logoImg);
