@@ -10,7 +10,10 @@ const getHeaderLogo = () => {
     const logoA = document.createElement("a");
     logoA.href = "index.html";
     logoA.appendChild(logoImg);
-    return logoA;
+    const header = document.createElement("header");
+    header.id = 'theheader';
+    header.appendChild(logoA);
+    return header;
 };
 
 const getNavA = (text, href, selected) => {
@@ -21,7 +24,7 @@ const getNavA = (text, href, selected) => {
     return nav;
 };
 
-const getHeader = () => {
+const getNav = () => {
     const loc = getLoc();
 
     const navA1 = getNavA("Om oss", "index.html", loc == "index" || loc == "");
@@ -36,15 +39,7 @@ const getHeader = () => {
     nav.appendChild(navA4);
 
     nav.id = "navBar";
-
-    const logo = getHeaderLogo();
-
-    const header = document.createElement("header");
-    header.id = 'theheader';
-    header.appendChild(logo);
-    header.appendChild(nav);
-
-    return header;
+    return nav;
 };
 
 const getFooter = () => {
@@ -103,7 +98,8 @@ const fillContacts = async () => {
     }
 };
 
-document.body.prepend(getHeader());
+document.body.prepend(getNav());
+document.body.prepend(getHeaderLogo());
 document.body.appendChild(getFooter());
 
 fillContacts();
