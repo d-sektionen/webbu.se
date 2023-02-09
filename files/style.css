@@ -1,7 +1,7 @@
 :root {
     --navBarColor: #37832e;
     --navBarHoverColor: #296323;
-    --navLinkOnBlackColor: #398930 ;
+    --navLinkOnBlackColor: #398930;
 }
 
 @font-face {
@@ -33,6 +33,15 @@
 .selected {
     color: rgb(255, 255, 255);
     background-color: var(--navBarColor);
+}
+
+.sr-only {  /* use this class to hide elements visually but still making them available to screen readers */
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 
 p, ul {
