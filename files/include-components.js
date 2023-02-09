@@ -9,10 +9,7 @@ const getHeaderLogo = () => {
     const logoA = document.createElement("a");
     logoA.href = "index.html";
     logoA.appendChild(logoImg);
-    const header = document.createElement("header");
-    header.id = 'theheader';
-    header.appendChild(logoA);
-    return header;
+    return logoA;
 };
 
 const getNavA = (text, href, selected) => {
@@ -37,10 +34,16 @@ const getHeader = () => {
     nav.appendChild(navA3);
     nav.appendChild(navA4);
 
-    const navBar = document.createElement("div");
-    navBar.appendChild(nav);
-    navBar.id = "navBar";
-    return navBar;
+    nav.id = "navBar";
+
+    const logo = getHeaderLogo();
+
+    const header = document.createElement("header");
+    header.id = 'theheader';
+    header.appendChild(logo);
+    header.appendChild(nav);
+
+    return header;
 };
 
 const getFooter = () => {
@@ -58,17 +61,13 @@ const getFooter = () => {
     return footer;
 };
 
-document.body.prepend(getHeader());
-document.body.prepend(getHeaderLogo());
-document.body.appendChild(getFooter());
-
 const getContactBox = c => {
     const div = document.createElement("div");
     div.className = "contact-card";
     const img = document.createElement("img");
     img.src = c.img;
     const div2 = document.createElement("div");
-
+    
     const h2 = document.createElement("h2");
     h2.innerText = c.name + "\n";
     const span = document.createElement("span");
@@ -76,17 +75,17 @@ const getContactBox = c => {
     span.innerText = c.pos;
     h2.appendChild(span);
     div2.appendChild(h2);
-
+    
     const p = document.createElement("p");
     p.innerText = c.des;
     div2.appendChild(p);
-
+    
     const a = document.createElement("a");
     a.className = "contact-mail";
     a.href = "mailto:" + c.mail;
     a.innerText = c.mail;
     div2.appendChild(a);
-
+    
     div.appendChild(img);
     div.appendChild(div2);
     return div;
@@ -94,7 +93,7 @@ const getContactBox = c => {
 
 const fillContacts = async () => {
     if (getLoc() != "contact")
-        return;
+    return;
     const mainBox = document.getElementById("contactWrapper");
     const response = await fetch('/files/members.json');
     const members = await response.json();
@@ -102,5 +101,8 @@ const fillContacts = async () => {
         mainBox.appendChild(getContactBox(c));
     }
 };
+
+document.body.prepend(getHeader());
+document.body.appendChild(getFooter());
 
 fillContacts();
