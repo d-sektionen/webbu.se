@@ -40,6 +40,10 @@ p, ul {
     font-size: 16px;
 }
 
+main a:hover {
+    color: var(--navBarHoverColor);
+}
+
 hr {
     border: 2px solid grey;
 }
