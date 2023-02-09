@@ -82,6 +82,10 @@ h1 {
     font-size: 24px;
 }
 
+.small-h2 {
+    font-size: 18px;
+}
+
 header img {
     display: block;
     max-width: 30%;
