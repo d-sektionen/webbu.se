@@ -9,11 +9,6 @@
     src: url(urw_gothic_l_demi.ttf);
 }
 
-
-.left-text {
-    text-align: left;
-}
-
 .general-container {
     width: 700px;
     max-width: 90%;
@@ -40,7 +35,8 @@
     background-color: var(--navBarColor);
 }
 
-p {
+p, ul {
+    text-align: left;
     font-size: 16px;
 }
 
