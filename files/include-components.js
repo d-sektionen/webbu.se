@@ -62,6 +62,7 @@ const getContactBox = c => {
     div.className = "contact-card";
     const img = document.createElement("img");
     img.src = c.img;
+    img.alt = c.name;
     const div2 = document.createElement("div");
     
     const h2 = document.createElement("h2");
@@ -89,7 +90,7 @@ const getContactBox = c => {
 
 const fillContacts = async () => {
     if (getLoc() != "contact")
-    return;
+        return;
     const mainBox = document.getElementById("contactWrapper");
     const response = await fetch('/files/members.json');
     const members = await response.json();
