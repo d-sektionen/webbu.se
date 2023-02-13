@@ -78,6 +78,7 @@ nav {
     top: 0;
     position: sticky;
     z-index: 1;
+    white-space: nowrap;
 }
 
 nav a {
@@ -85,6 +86,8 @@ nav a {
     padding: 8px;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 nav a:hover {
@@ -99,7 +102,7 @@ h3 {
     text-align: left;
 }
 
-.small-h2 {
+.small-h {
     font-size: 1.125rem;
 }
 
@@ -125,6 +128,7 @@ footer {
     background-color: black;
     line-height: 0.4;
     border-top: 4px solid var(--navBarColor);
+    white-space: nowrap;
 }
 
 footer a {
