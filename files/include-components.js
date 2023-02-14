@@ -6,6 +6,7 @@ const getLoc = () => {
 const getHeaderLogo = () => {
     const logoImg = document.createElement("img");
     logoImg.src = "files/webbu-logo-inverted.png";
+    logoImg.alt = "Till startsidan för Webbutskottet";
     const logoA = document.createElement("a");
     logoA.href = "index.html";
     logoA.appendChild(logoImg);
@@ -23,7 +24,7 @@ const getNavA = (text, href, selected) => {
     return nav;
 };
 
-const getHeader = () => {
+const getNav = () => {
     const loc = getLoc();
 
     const navA1 = getNavA("Om oss", "index.html", loc == "index" || loc == "");
@@ -37,10 +38,8 @@ const getHeader = () => {
     nav.appendChild(navA3);
     nav.appendChild(navA4);
 
-    const navBar = document.createElement("div");
-    navBar.appendChild(nav);
-    navBar.id = "navBar";
-    return navBar;
+    nav.id = "navBar";
+    return nav;
 };
 
 const getFooter = () => {
@@ -58,17 +57,14 @@ const getFooter = () => {
     return footer;
 };
 
-document.body.prepend(getHeader());
-document.body.prepend(getHeaderLogo());
-document.body.appendChild(getFooter());
-
 const getContactBox = c => {
     const div = document.createElement("div");
     div.className = "contact-card";
     const img = document.createElement("img");
     img.src = c.img;
+    img.alt = c.name;
     const div2 = document.createElement("div");
-
+    
     const h2 = document.createElement("h2");
     h2.innerText = c.name + "\n";
     const span = document.createElement("span");
@@ -76,17 +72,17 @@ const getContactBox = c => {
     span.innerText = c.pos;
     h2.appendChild(span);
     div2.appendChild(h2);
-
+    
     const p = document.createElement("p");
     p.innerText = c.des;
     div2.appendChild(p);
-
+    
     const a = document.createElement("a");
     a.className = "contact-mail";
     a.href = "mailto:" + c.mail;
     a.innerText = c.mail;
     div2.appendChild(a);
-
+    
     div.appendChild(img);
     div.appendChild(div2);
     return div;
@@ -102,5 +98,9 @@ const fillContacts = async () => {
         mainBox.appendChild(getContactBox(c));
     }
 };
+
+document.body.prepend(getNav());
+document.body.prepend(getHeaderLogo());
+document.body.appendChild(getFooter());
 
 fillContacts();
