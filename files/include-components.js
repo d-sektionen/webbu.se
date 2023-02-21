@@ -27,10 +27,10 @@ const getNavA = (text, href, selected) => {
 const getNav = () => {
     const loc = getLoc();
 
-    const navA1 = getNavA("Om oss", "index.html", loc == "index" || loc == "");
-    const navA2 = getNavA("Tjänster", "services.html", loc == "services");
-    const navA3 = getNavA("Hackathon", "hackathon.html", loc == "hackathon");
-    const navA4 = getNavA("Kontakt", "contact.html", loc == "contact");
+    const navA1 = getNavA("Om oss", "index", loc == "index" || loc == "");
+    const navA2 = getNavA("Tjänster", "services", loc == "services");
+    const navA3 = getNavA("Hackathon", "hackathon", loc == "hackathon");
+    const navA4 = getNavA("Kontakt", "contact", loc == "contact");
 
     const nav = document.createElement("nav");
     nav.appendChild(navA1);
