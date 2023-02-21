@@ -8,7 +8,7 @@ const getHeaderLogo = () => {
     logoImg.src = "files/webbu-logo-inverted.png";
     logoImg.alt = "Till startsidan för Webbutskottet";
     const logoA = document.createElement("a");
-    logoA.href = "index.html";
+    logoA.href = "https://www.webbu.se";
     logoA.appendChild(logoImg);
     const header = document.createElement("header");
     header.id = 'theheader';
