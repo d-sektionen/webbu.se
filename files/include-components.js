@@ -27,7 +27,7 @@ const getNavA = (text, href, selected) => {
 const getNav = () => {
     const loc = getLoc();
 
-    const navA1 = getNavA("Om oss", "index", loc == "index" || loc == "");
+    const navA1 = getNavA("Om oss", "https://www.webbu.se", loc == "index" || loc == "");
     const navA2 = getNavA("Tjänster", "services", loc == "services");
     const navA3 = getNavA("Hackathon", "hackathon", loc == "hackathon");
     const navA4 = getNavA("Kontakt", "contact", loc == "contact");
