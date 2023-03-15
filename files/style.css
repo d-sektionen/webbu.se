@@ -13,7 +13,6 @@ main {
     width: 40rem;
     max-width: 90%;
     margin: auto;
-    text-align: center;
     margin-bottom: 3rem;
 }
 
@@ -45,7 +44,6 @@ main {
 }
 
 p, ul {
-    text-align: left;
     font-size: 1rem;
 }
 
@@ -94,8 +92,20 @@ nav a:hover {
     background-color: var(--navBarHoverColor);
 }
 
+a.button {
+    padding: 8px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: var(--navBarColor);
+}
+
 h1 {
     font-size: 1.5rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
 
 h3 {
@@ -149,6 +159,10 @@ footer a:hover {
     max-width: 90%;
     width: 25rem;
     text-align: left;
+}
+
+.contact-card h2 {
+    text-align: left !important;
 }
 
 .contact-card p {
