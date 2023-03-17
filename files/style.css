@@ -51,6 +51,24 @@ main a:hover {
     color: var(--navBarHoverColor);
 }
 
+main a.button {
+    padding: 8px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: var(--navBarColor);
+}
+
+main a.button:hover {
+    background-color: var(--navBarHoverColor);
+    color: rgb(255, 255, 255);
+}
+
+main .button-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
 hr {
     border: 2px solid grey;
 }
@@ -90,13 +108,6 @@ nav a {
 
 nav a:hover {
     background-color: var(--navBarHoverColor);
-}
-
-a.button {
-    padding: 8px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    background-color: var(--navBarColor);
 }
 
 h1 {
