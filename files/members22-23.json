@@ -1,0 +1,58 @@
+[
+    {
+        "img": "files/img/isak.jpg",
+        "name": "Isak Horvath",
+        "pos": "Webmaster",
+        "mail": "webmaster@d-sektionen.se",
+        "des": "Kontakta mig vid allmänna frågor om webbutskottet och dess verksamhet."
+    },
+    {
+        "img": "files/img/cajsa.jpg",
+        "name": "Cajsa Wargren",
+        "pos": "Utvecklare / Event",
+        "mail": "cajsa.wargren@d-sektionen.se",
+        "des": "Har du frågor om eventet kontakta mig så vidarebefordrar jag till webmaster."
+    },
+    {
+        "img": "files/img/thea.jpg",
+        "name": "Thea Borg",
+        "pos": "Utvecklare / PR",
+        "mail": "thea.borg@d-sektionen.se",
+        "des": "Kontakta mig om du vill ha kontakt med mig! :)"
+    },
+    {
+        "img": "files/img/therese.jpg",
+        "name": "Therese Selberg",
+        "pos": "Utvecklare / Tryck",
+        "mail": "therese.selberg@d-sektionen.se",
+        "des": "Det är förmodligen inte mig du vill kontakta, men du får det om du vill."
+    },
+    {
+        "img": "files/img/johan.jpg",
+        "name": "Johan Holtz",
+        "pos": "Backendutv. / Spons",
+        "mail": "johan.holtz@d-sektionen.se",
+        "des": "Kontakta mig om frågor gällande Spons!"
+    },
+    {
+        "img": "files/img/erik.jpg",
+        "name": "Erik Ekelöf",
+        "pos": "Underhållsutv. / Tekniker",
+        "mail": "erik.ekelof@d-sektionen.se",
+        "des": ""
+    },
+    {
+        "img": "files/img/viktor.jpg",
+        "name": "Viktor Holta",
+        "pos": "Underhållsutv. / Info",
+        "mail": "viktor.holta@d-sektionen.se",
+        "des": "Om du vill ha information om informationen här, kontakta mig."
+    },
+    {
+        "img": "files/img/felix.jpg",
+        "name": "Felix Lindgren",
+        "pos": "Adminutv. / Tekniker",
+        "mail": "felix.lindgren@d-sektionen.se",
+        "des": ""
+    }
+]
