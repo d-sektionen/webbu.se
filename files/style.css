@@ -256,3 +256,32 @@ footer a:hover {
     border-radius: 4px;
     max-width: 30em;
 }
+
+
+#enlarged-image-window {
+    background-color: #37832e;
+    display: block;
+    z-index: 2;
+    /* margin: 1em auto auto auto; */
+    max-width: 80%;
+    max-height: 90%;
+    width: fit-content;
+}
+
+#enlarged-image{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+#image-wrapper {
+    position: fixed;
+    top: 0%;
+    left: 0%; 
+    width: 100%;
+    min-height: 100%; 
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    display: none;
+    justify-content: center;
+}
