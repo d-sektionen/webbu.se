@@ -235,3 +235,24 @@ footer a:hover {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), transparent 60%);
     color: white;
 }
+
+
+.wof-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.wall-card {
+    border: 3px solid #37832e;
+    border-radius: 4px;
+    text-align: center;
+    margin: 2em;
+    padding: 2px;
+}
+
+.wall-card img {
+    border-radius: 4px;
+    max-width: 30em;
+}
