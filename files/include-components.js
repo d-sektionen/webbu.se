@@ -31,7 +31,7 @@ const getNav = () => {
     const navA2 = getNavA("Tjänster", "services", loc == "services");
     const navA3 = getNavA("Hackathon", "hackathon", loc == "hackathon");
     const navA4 = getNavA("Kontakt", "contact", loc == "contact");
-    const navA5 = getNavA("Wall of fame","walloffame", loc == "WallOfFame");
+    const navA5 = getNavA("Wall of Fame","walloffame", loc == "walloffame");
 
     const nav = document.createElement("nav");
     nav.appendChild(navA1);
@@ -50,7 +50,7 @@ const getFooter = () => {
     footerA.textContent = "webmaster@d-sektionen.se";
 
     const footerP = document.createElement("p");
-    footerP.innerText = "WebbU © 2022 | ";
+    footerP.innerText = "WebbU © " + new Date().getFullYear() + " | ";
     footerP.appendChild(footerA);
 
     const footer = document.createElement("footer");
