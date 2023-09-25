@@ -5,9 +5,11 @@ const getYearPost = c => {
     const img = document.createElement("img");
     img.src = c.thumbnail;
     img.alt = c.year;
+    img.className = "wall-img"
     
     const h1 = document.createElement("h1");
     h1.innerText = c.year;
+    h1.className = "wall-h1"
     
     div.appendChild(img);
     div.appendChild(h1);
