@@ -12,33 +12,41 @@ const getYearPost = c => {
     div.appendChild(img);
     div.appendChild(h1);
     // Onclick function for the button that opens the larger image
-    div.onclick = function() {
+     div.onclick = function() {
         const wrapper = document.getElementById("image-wrapper");
-        const modal = document.getElementById("enlarged-image-window");
         wrapper.style.display = "block";
-        modal.style.margin = "1em auto auto auto"
+        // const modal = document.getElementById("enlarged-image-window");
+        // modal.style.margin = "0 auto auto auto"
+        // modal.style.marginLeft = "auto"
+        // modal.style.marginRight = "auto"
         const image = document.getElementById("enlarged-image");
+        // const offset = getOffset(image);
+        // modal.style.marginTop = offset + "px";
+        // modal.style.marginBottom = offset + "px";*/
         image.src = c.img;
+
     }
 
-    getOffset(img);
     return div;
 };
 
 
 const getOffset = image => {
     //behöver anpassa efter om den är bredare än skärmen eller högre än skärmen så att det blir dynamiskt 
-    const winHeight = window.screen.availHeight;
-    const winWidth = window.screen.availWidth;
-    const imgWidth = image.width;
-    const imgHeight = image.height;
+    const winHeight = window.innerHeight;
+    const imgHeight = image.naturalHeight;
+    const imh = image.height;
     var relH = winHeight/imgHeight;
 
-    console.log(winHeight);
-    console.log(winWidth);
-    console.log(imgHeight);
-    console.log(imgWidth);
-    console.log(relH);
+    console.log("window height", winHeight);
+    console.log("image height on screen ", imgHeight);
+    console.log("actual image height on screen", imh);
+    console.log("relative height", relH);
+    
+
+    const offset = ((winHeight - imh)/2);
+    console.log("offset", offset);
+    return  offset;
 
 }
 

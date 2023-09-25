@@ -259,17 +259,21 @@ footer a:hover {
 
 
 #enlarged-image-window {
-    background-color: #37832e;
+    /* background-color: #37832e; */
+    position: absolute;
     display: block;
     z-index: 2;
-    /* margin: 1em auto auto auto; */
-    max-width: 80%;
-    max-height: 90%;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    height: 80%;
     width: fit-content;
+    top: 50%;
+    left: 50%;
 }
 
 #enlarged-image{
-    max-width: 100%;
+    width: 100%;
     max-height: 100%;
     margin: auto;
 }
