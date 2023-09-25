@@ -19,7 +19,6 @@ const getYearPost = c => {
         image.src = c.img;
 
     }
-
     return div;
 };
 
@@ -29,6 +28,7 @@ const giveOnClick = async () => {
   wrapper.onclick = function(event) {
     const wrapper = document.getElementById("image-wrapper");
     if (event.target == wrapper) {
+      document.getElementById("enlarged-image").src = "";
       wrapper.style.display = "none";
     }
   }

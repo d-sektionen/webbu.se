@@ -254,10 +254,8 @@ footer a:hover {
 
 .wall-card img {
     border-radius: 4px;
-    max-width: 30em;
+    max-width: 20em;
 }
-
-
 
 #enlarged-image{
     max-width: 90%;
