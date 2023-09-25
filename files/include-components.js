@@ -59,10 +59,6 @@ const getFooter = () => {
     return footer;
 };
 
-
-
-
 document.body.prepend(getNav());
 document.body.prepend(getHeaderLogo());
 document.body.appendChild(getFooter());
-

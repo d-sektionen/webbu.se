@@ -250,9 +250,45 @@ footer a:hover {
     text-align: center;
     margin: 2em;
     padding: 2px;
+    display: grid;
+    grid-template-areas: "wall-img wall-img wall-img wall-img" ". wall-h1 wall-h1 .";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr auto;
 }
 
 .wall-card img {
     border-radius: 4px;
-    max-width: 30em;
+    max-width: 20em;
+}
+
+.wall-img {
+    grid-area: wall-img;
+}
+
+.wall-h1 {
+    grid-area: wall-h1;
+}
+
+#enlarged-image{
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    z-index: 2;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#image-wrapper {
+    position: fixed;
+    top: 0%;
+    left: 0%; 
+    width: 100%;
+    min-height: 100%; 
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    display: none;
+    justify-content: center;
 }
