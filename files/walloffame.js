@@ -15,14 +15,7 @@ const getYearPost = c => {
      div.onclick = function() {
         const wrapper = document.getElementById("image-wrapper");
         wrapper.style.display = "block";
-        // const modal = document.getElementById("enlarged-image-window");
-        // modal.style.margin = "0 auto auto auto"
-        // modal.style.marginLeft = "auto"
-        // modal.style.marginRight = "auto"
         const image = document.getElementById("enlarged-image");
-        // const offset = getOffset(image);
-        // modal.style.marginTop = offset + "px";
-        // modal.style.marginBottom = offset + "px";*/
         image.src = c.img;
 
     }
@@ -30,27 +23,7 @@ const getYearPost = c => {
     return div;
 };
 
-
-const getOffset = image => {
-    //behöver anpassa efter om den är bredare än skärmen eller högre än skärmen så att det blir dynamiskt 
-    const winHeight = window.innerHeight;
-    const imgHeight = image.naturalHeight;
-    const imh = image.height;
-    var relH = winHeight/imgHeight;
-
-    console.log("window height", winHeight);
-    console.log("image height on screen ", imgHeight);
-    console.log("actual image height on screen", imh);
-    console.log("relative height", relH);
-    
-
-    const offset = ((winHeight - imh)/2);
-    console.log("offset", offset);
-    return  offset;
-
-}
-
-const bigImage = async () => {
+const giveOnClick = async () => {
   // Onclick function to close the modal when clicking outside
   const wrapper = document.getElementById("image-wrapper");
   wrapper.onclick = function(event) {
@@ -73,4 +46,4 @@ const makeWall = async () => {
 };
 
 makeWall();
-bigImage();
+giveOnClick();
