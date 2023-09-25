@@ -259,15 +259,16 @@ footer a:hover {
 
 
 #enlarged-image-window {
-    /* background-color: #37832e; */
+    background-color: #37832e;
     position: absolute;
     display: block;
     z-index: 2;
     margin: 0;
     transform: translate(-50%,-50%);
-    width: 90%;
-    height: 80%;
+    max-width: 90%;
+    max-height: 80%;
     width: fit-content;
+    height: fit-content;
     top: 50%;
     left: 50%;
 }
