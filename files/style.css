@@ -261,6 +261,13 @@ footer a:hover {
     max-width: 20em;
 }
 
+/* For mobile phones, show wall of fame cards smaller */
+@media all and (max-width: 750px) {
+    .wall-card img {
+        max-width: 100%;
+    }
+}
+
 .wall-img {
     grid-area: wall-img;
 }
