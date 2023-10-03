@@ -1,22 +1,22 @@
 [
     {
-        "img": "files/img/webbu_22-23.jpg",
-        "thumbnail": "files/img/thmb_webbu_22-23.jpg",
+        "img": "files/img/wall-of-fame/webbu_22-23.jpg",
+        "thumbnail": "files/img/wall-of-fame/thmb_webbu_22-23.jpg",
         "year": "WebbU 22/23"
     },
     {
-        "img": "files/img/webbu_21-22.jpg",
-        "thumbnail": "files/img/thmb_webbu_21-22.jpg",
+        "img": "files/img/wall-of-fame/webbu_21-22.jpg",
+        "thumbnail": "files/img/wall-of-fame/thmb_webbu_21-22.jpg",
         "year": "WebbU 21/22"
     },
     {
-        "img": "files/img/webbu_20-21.png",
-        "thumbnail": "files/img/thmb_webbu_20-21.png",
+        "img": "files/img/wall-of-fame/webbu_20-21.png",
+        "thumbnail": "files/img/wall-of-fame/thmb_webbu_20-21.png",
         "year": "WebbU 20/21"
     },
     {
-        "img": "files/img/webbu_19-20.jpg",
-        "thumbnail": "files/img/thmb_webbu_19-20.jpg",
+        "img": "files/img/wall-of-fame/webbu_19-20.jpg",
+        "thumbnail": "files/img/wall-of-fame/thmb_webbu_19-20.jpg",
         "year": "WebbU 19/20"
     }
 ]
