@@ -5,7 +5,7 @@ const getLoc = () => {
 
 const getHeaderLogo = () => {
     const logoImg = document.createElement("img");
-    logoImg.src = "files/webbu-logo-inverted.png";
+    logoImg.src = "files/img/webbu-logo-inverted.png";
     logoImg.alt = "Till startsidan för Webbutskottet";
     const logoA = document.createElement("a");
     logoA.href = "https://www.webbu.se";
@@ -59,10 +59,6 @@ const getFooter = () => {
     return footer;
 };
 
-
-
-
 document.body.prepend(getNav());
 document.body.prepend(getHeaderLogo());
 document.body.appendChild(getFooter());
-
