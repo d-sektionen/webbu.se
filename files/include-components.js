@@ -56,17 +56,17 @@ const getFooter = () => {
     const footer = document.createElement("footer");
     footer.appendChild(footerP);
 
-    // Add sponsors if before march
-    if (new Date().getMonth() < 2) {
+    // Add sponsors if before march and 2024
+    if (new Date().getMonth() < 2 && new Date().getFullYear() == 2024) {
         const sponsors = document.createElement("div");
         sponsors.id = "footer-spons";
         sponsors.innerHTML = `
             <p> |</p>
-            <a href="https://www.opera.com/">
-                <img src="files/img/sponsor/opera-white.png" alt="Opera">
-            </a>
             <a href="https://www.mindroad.se/">
                 <img src="files/img/sponsor/mindroad.png" alt="Mindroad">
+            </a>
+            <a href="https://www.opera.com/">
+                <img src="files/img/sponsor/opera-white.png" alt="Opera">
             </a>
             <a href="https://www.goto10.se/">
                 <img src="files/img/sponsor/goto10.png" alt="Goto 10">
