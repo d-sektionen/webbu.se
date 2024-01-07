@@ -175,11 +175,10 @@ footer a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     margin: 0;
     padding: 0;
-    white-space: normal;
 }
 
 #footer-spons img {
@@ -187,6 +186,17 @@ footer a:hover {
     max-width: 100%;
     max-height: 100%;
     margin: 0 0.5em;
+}
+
+/* For mobile phones, show footer sponsors smaller */
+@media all and (max-width: 750px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    #footer-spons {
+        justify-content: center;
+    }
 }
 
 .contact-card {
@@ -286,6 +296,15 @@ footer a:hover {
     max-width: 100%;
     max-height: 100%;
     margin: 0 1em;
+}
+/* For mobile phones, show hackathon sponsors smaller */
+@media all and (max-width: 750px) {
+    .hackathon-sponsor-img {
+        flex-wrap: wrap;
+    }
+    .hackathon-sponsor-img img {
+        margin: 0.5em 0.5em;
+    }
 }
 
 .wof-container {
