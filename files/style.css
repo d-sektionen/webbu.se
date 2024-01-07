@@ -188,11 +188,17 @@ footer a:hover {
     margin: 0 0.5em;
 }
 
-/* For mobile phones, show footer sponsors smaller */
+
 @media all and (max-width: 750px) {
+    /* Offset footer more on mobile */
+    main {
+        padding-bottom: 2.5rem;
+    }
+    /* For mobile phones, show footer sponsors smaller */
     footer {
         flex-direction: column;
         text-align: center;
+        margin: auto;
     }
     #footer-spons {
         justify-content: center;
