@@ -13,7 +13,7 @@ main {
     width: 40rem;
     max-width: 90%;
     margin: auto;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 .wide-container {
@@ -154,7 +154,10 @@ footer {
     left: 0;
     right: 0;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     color: white;
     background-color: black;
     line-height: 0.4;
@@ -182,17 +185,17 @@ footer a:hover {
 }
 
 #footer-spons img {
-    height: 1.5em;
+    height: 2.25em;
     max-width: 100%;
     max-height: 100%;
-    margin: 0 0.5em;
+    margin: 0.5em 0.5em;
 }
 
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 1000px) {
     /* Offset footer more on mobile */
     main {
-        padding-bottom: 2.5rem;
+        padding-bottom: 4rem;
     }
     /* For mobile phones, show footer sponsors smaller */
     footer {
@@ -202,6 +205,9 @@ footer a:hover {
     }
     #footer-spons {
         justify-content: center;
+    }
+    #footer-spons img {
+        height: 2em;
     }
 }
 
@@ -298,7 +304,7 @@ footer a:hover {
 }
 
 .hackathon-sponsor-img img {
-    height: 2em;
+    height: 2.75em;
     max-width: 100%;
     max-height: 100%;
     margin: 0 1em;
