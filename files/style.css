@@ -13,14 +13,14 @@ main {
     width: 40rem;
     max-width: 90%;
     margin: auto;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
+    /* based on footer height */
 }
 
 .wide-container {
     width: 90%;
-    margin: auto;
-    margin-bottom: 3rem;
-    /* height of footer + height of margin-top */
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 0.5rem;
     text-align: center;
     display: flex;
@@ -194,7 +194,7 @@ footer a:hover {
 @media all and (max-width: 1000px) {
     /* Offset footer more on mobile */
     main {
-        padding-bottom: 4rem;
+        padding-bottom: 6rem;
     }
     /* For mobile phones, show footer sponsors smaller */
     footer {
