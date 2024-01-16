@@ -31,7 +31,7 @@ const getNav = () => {
     const navA2 = getNavA("Tjänster", "services", loc == "services");
     const navA3 = getNavA("Hackathon", "hackathon", loc == "hackathon");
     const navA4 = getNavA("Kontakt", "contact", loc == "contact");
-    const navA5 = getNavA("Wall of Fame","walloffame", loc == "walloffame");
+    const navA5 = getNavA("Deprecated","walloffame", loc == "walloffame");
 
     const nav = document.createElement("nav");
     nav.appendChild(navA1);
