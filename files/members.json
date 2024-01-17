@@ -11,7 +11,7 @@
         "name": "Andreas Blomqvist",
         "pos": "Backendutv. / Tekniker",
         "mail": "andreas.blomqvist@d-sektionen.se",
-        "des": ""
+        "des": "Kontakta mig om ert utskott behöver hjälp med webbrelaterade grejer"
     },
     {
         "img": "files/img/contact/johndoe.png",
@@ -32,27 +32,27 @@
         "name": "Gabriel Matsson",
         "pos": "Adminutv. / Spons",
         "mail": "gabriel.matsson@d-sektionen.se",
-        "des": ""
+        "des": "Ge gärna response 200 på min GET Request Spons!"
     },
     {
         "img": "files/img/contact/johndoe.png",
         "name": "Erik Ekelöf",
         "pos": "Serverutv. / Event",
         "mail": "erik.ekelof@d-sektionen.se",
-        "des": ""
+        "des": "KONTAKTA INTE MIG!"
     },
     {
         "img": "files/img/contact/johndoe.png",
         "name": "Jorunn Jóhannesdóttir",
         "pos": "Utvecklare / Tryck",
         "mail": "jorunn.johannesdottir@d-sektionen.se",
-        "des": ""
+        "des": "Kontakta mig för trykk-relaterade saker"
     },
     {
         "img": "files/img/contact/johndoe.png",
         "name": "William Minidis",
         "pos": "Underhållsutv. / PR",
         "mail": "william.minidis@d-sektionen.se",
-        "des": ""
+        "des": "Kontakta mig för PR relaterat och saker som behöver uppdateras"
     }
 ]
