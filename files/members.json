@@ -1,55 +1,55 @@
 [
     {
-        "img": "files/img/contact/olle.jpg",
+        "img": "files/img/contact/olle.webp",
         "name": "Olle Mineur",
         "pos": "Webmaster",
         "mail": "webmaster@d-sektionen.se",
         "des": "Kontakta mig för allmänna frågor."
     },
     {
-        "img": "files/img/contact/andreas.jpg",
+        "img": "files/img/contact/andreas.webp",
         "name": "Andreas Blomqvist",
         "pos": "Backendutv. / Tekniker",
         "mail": "andreas.blomqvist@d-sektionen.se",
         "des": "Kontakta mig om ert utskott behöver hjälp med webbrelaterade grejer"
     },
     {
-        "img": "files/img/contact/ferdinand.jpg",
+        "img": "files/img/contact/ferdinand.webp",
         "name": "Ferdinand Kouhia",
         "pos": "Utvecklare / Info",
         "mail": "ferdinand.kouhia@d-sektionen.se",
         "des": "Jag kan ingenting om webbutveckling men kontakta mig ändå."
     },
     {
-        "img": "files/img/contact/therese.jpg",
+        "img": "files/img/contact/therese.webp",
         "name": "Therese Selberg",
         "pos": "Utvecklare / Tekniker",
         "mail": "therese.selberg@d-sektionen.se",
         "des": "Snälla kontakta inte mig"
     },
     {
-        "img": "files/img/contact/gabriel.jpg",
+        "img": "files/img/contact/gabriel.webp",
         "name": "Gabriel Matsson",
         "pos": "Adminutv. / Spons",
         "mail": "gabriel.matsson@d-sektionen.se",
         "des": "Ge gärna response 200 på min GET Request Spons!"
     },
     {
-        "img": "files/img/contact/erik.jpg",
+        "img": "files/img/contact/erik.webp",
         "name": "Erik Ekelöf",
         "pos": "Serverutv. / Event",
         "mail": "erik.ekelof@d-sektionen.se",
         "des": "KONTAKTA INTE MIG!"
     },
     {
-        "img": "files/img/contact/jorunn.jpg",
+        "img": "files/img/contact/jorunn.webp",
         "name": "Jorunn Jóhannesdóttir",
         "pos": "Utvecklare / Tryck",
         "mail": "jorunn.johannesdottir@d-sektionen.se",
         "des": "Kontakta mig för trykk-relaterade saker"
     },
     {
-        "img": "files/img/contact/william.jpg",
+        "img": "files/img/contact/william.webp",
         "name": "William Minidis",
         "pos": "Underhållsutv. / PR",
         "mail": "william.minidis@d-sektionen.se",
