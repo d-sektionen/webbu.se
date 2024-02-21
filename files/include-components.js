@@ -49,9 +49,22 @@ const getFooter = () => {
     footerA.href = "mailto:webmaster@d-sektionen.se";
     footerA.textContent = "webmaster@d-sektionen.se";
 
+    const footerA2 = document.createElement("a");
+    footerA2.href = "https://www.facebook.com/webbutskottet/";
+    footerA2.id = "facebook-link";
+
+    const facebook = document.createElement("img");
+    facebook.src = "files/img/facebook.png";
+    facebook.id = "facebook";
+    facebook.alt = "Facebook till WebbU";
+    footerA2.appendChild(facebook);
+
     const footerP = document.createElement("p");
     footerP.innerText = "WebbU © " + new Date().getFullYear() + " | ";
+    footerP.id = "footer-p";
     footerP.appendChild(footerA);
+    footerP.innerHTML += " ";
+    footerP.appendChild(footerA2);
 
     const footer = document.createElement("footer");
     footer.appendChild(footerP);
