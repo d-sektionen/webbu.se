@@ -42,6 +42,7 @@ const makeWall = async () => {
     const maindiv = document.getElementById("wof-container");
     const response = await fetch('/files/wall-of-fame.json');
     const years = await response.json();
+    years.sort((a, b)=>b.year.localeCompare(a.year))
     for (const y of years) {
         maindiv.appendChild(getYearPost(y));
     }
