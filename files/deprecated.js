@@ -37,7 +37,7 @@ const giveOnClick = async () => {
 }
 
 const makeWall = async () => {
-    if (getLoc() != "walloffame") 
+    if (getLoc() != "deprecated")
         return;
     const maindiv = document.getElementById("wof-container");
     const response = await fetch('/files/wall-of-fame.json');

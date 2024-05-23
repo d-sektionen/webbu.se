@@ -1,4 +1,10 @@
 [
+
+    {
+        "img": "files/img/wall-of-fame/webbu_23-24.jpg",
+        "thumbnail": "files/img/wall-of-fame/thmb_webbu_23-24.jpg",
+        "year": "WebbU 23/24"
+    },
     {
         "img": "files/img/wall-of-fame/webbu_22-23.jpg",
         "thumbnail": "files/img/wall-of-fame/thmb_webbu_22-23.jpg",
@@ -18,10 +24,5 @@
         "img": "files/img/wall-of-fame/webbu_19-20.jpg",
         "thumbnail": "files/img/wall-of-fame/thmb_webbu_19-20.jpg",
         "year": "WebbU 19/20"
-    },
-    {
-        "img": "files/img/wall-of-fame/webbu_23-24.jpg",
-        "thumbnail": "files/img/wall-of-fame/thmb_webbu_23-24.jpg",
-        "year": "WebbU 23/24"
     }
 ]
