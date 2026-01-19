@@ -1,65 +1,65 @@
 [
     {
-        "img": "files/img/contact/olle.webp",
-        "name": "Olle Mineur",
+        "img": "files/img/contact/johndoe.png",
+        "name": "Andreas Blomqvist",
         "pos": "Webmaster",
         "mail": "webmaster@d-sektionen.se",
         "des": "Kontakta mig för allmänna frågor."
     },
     {
         "img": "files/img/contact/johndoe.png",
-        "name": "William Minidis",
-        "pos": "Underhållsutvecklare",
-        "mail": "william.minidis@d-sektionen.se",
-        "des": "Kontakta mig för hosting och underhållsfrågor."
-    },
-    {
-        "img": "files/img/contact/johndoe.png",
-        "name": "Andreas Blomqvist",
+        "name": "Arthur Nordström",
         "pos": "Backendutvecklare",
-        "mail": "andreas.blomqvist@d-sektionen.se",
+        "mail": "arthur.nordstrom@d-sektionen.se",
         "des": "Kontakta mig för backend-frågor."
     },
     {
         "img": "files/img/contact/johndoe.png",
-        "name": "Mervan Palmér",
+        "name": "Alexander Bucht Linde",
         "pos": "Eventutvecklare",
-        "mail": "mervan.palmer@d-sektionen.se",
+        "mail": "alexander.bucht@d-sektionen.se",
         "des": "Kontakta mig för event-frågor."
     },
     {
         "img": "files/img/contact/johndoe.png",
         "name": "Malte Klüft",
-        "pos": "UX-utvecklare",
+        "pos": "Frontendutvecklare",
         "mail": "malte.kluft@d-sektionen.se",
-        "des": "Kontakta mig för UX-frågor."
+        "des": "Kontakta mig för frontend-frågor."
     },
     {
         "img": "files/img/contact/johndoe.png",
-        "name": "Samuel Rothin",
-        "pos": "UX-utvecklare",
-        "mail": "samuel.rothin@d-sektionen.se",
-        "des": "Kontakta mig för UX-frågor."
+        "name": "Markus Piotrowski",
+        "pos": "Serverutvecklare",
+        "mail": "markus.piotrowski@d-sektionen.se",
+        "des": "Kontakta mig för server-frågor."
     },
     {
         "img": "files/img/contact/johndoe.png",
-        "name": "Joakim Lundqvist",
+        "name": "Marcus Dahl",
         "pos": "Utvecklare",
-        "mail": "joakim.lundqvist@d-sektionen.se",
+        "mail": "marcus.dahl@d-sektionen.se",
         "des": "Kontakta mig för kodfrågor."
     },
     {
         "img": "files/img/contact/johndoe.png",
-        "name": "Samuel Broman",
+        "name": "Bo Rodin",
         "pos": "Utvecklare",
-        "mail": "samuel.broman@d-sektionen.se",
+        "mail": "bo.rodin@d-sektionen.se",
         "des": "Kontakta mig för kodfrågor."
     },
     {
         "img": "files/img/contact/johndoe.png",
-        "name": "Julia Mak",
+        "name": "Otto Roming",
         "pos": "Utvecklare",
-        "mail": "julia.mak@d-sektionen.se",
+        "mail": "otto.roming@d-sektionen.se",
+        "des": "Kontakta mig för kodfrågor."
+    },
+        {
+        "img": "files/img/contact/johndoe.png",
+        "name": "Hugo Schongin",
+        "pos": "Utvecklare",
+        "mail": "hugo.schongin@d-sektionen.se",
         "des": "Kontakta mig för kodfrågor."
     }
 ]
