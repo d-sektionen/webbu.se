@@ -1,65 +1,51 @@
 [
     {
         "img": "files/img/contact/johndoe.png",
-        "name": "Andreas Blomqvist",
+        "name": "Otto Roming",
         "pos": "Webmaster",
         "mail": "webmaster@d-sektionen.se",
         "des": "Kontakta mig för allmänna frågor."
     },
     {
         "img": "files/img/contact/johndoe.png",
-        "name": "Arthur Nordström",
+        "name": "Bo Rodin",
         "pos": "Backendutvecklare",
-        "mail": "arthur.nordstrom@d-sektionen.se",
+        "mail": "bo.rodin@d-sektionen.se",
         "des": "Kontakta mig för backend-frågor."
     },
     {
         "img": "files/img/contact/johndoe.png",
-        "name": "Alexander Bucht Linde",
+        "name": "Markus Hård",
         "pos": "Eventutvecklare",
-        "mail": "alexander.bucht@d-sektionen.se",
+        "mail": "markus.hard@d-sektionen.se",
         "des": "Kontakta mig för event-frågor."
     },
     {
         "img": "files/img/contact/johndoe.png",
-        "name": "Malte Klüft",
+        "name": "Vakant",
         "pos": "Frontendutvecklare",
-        "mail": "malte.kluft@d-sektionen.se",
+        "mail": "",
         "des": "Kontakta mig för frontend-frågor."
     },
     {
         "img": "files/img/contact/johndoe.png",
-        "name": "Markus Piotrowski",
+        "name": "Algot Johansson",
         "pos": "Serverutvecklare",
-        "mail": "markus.piotrowski@d-sektionen.se",
+        "mail": "algot.johansson@d-sektionen.se",
         "des": "Kontakta mig för server-frågor."
     },
     {
         "img": "files/img/contact/johndoe.png",
-        "name": "Marcus Dahl",
+        "name": "Vakant",
         "pos": "Utvecklare",
-        "mail": "marcus.dahl@d-sektionen.se",
+        "mail": "",
         "des": "Kontakta mig för kodfrågor."
     },
     {
         "img": "files/img/contact/johndoe.png",
-        "name": "Bo Rodin",
+        "name": "Vakant",
         "pos": "Utvecklare",
-        "mail": "bo.rodin@d-sektionen.se",
-        "des": "Kontakta mig för kodfrågor."
-    },
-    {
-        "img": "files/img/contact/johndoe.png",
-        "name": "Otto Roming",
-        "pos": "Utvecklare",
-        "mail": "otto.roming@d-sektionen.se",
-        "des": "Kontakta mig för kodfrågor."
-    },
-        {
-        "img": "files/img/contact/johndoe.png",
-        "name": "Hugo Schongin",
-        "pos": "Utvecklare",
-        "mail": "hugo.schongin@d-sektionen.se",
+        "mail": "",
         "des": "Kontakta mig för kodfrågor."
     }
 ]
