@@ -1,51 +1,51 @@
 [
-    {
-        "img": "files/img/contact/johndoe.png",
-        "name": "Otto Roming",
-        "pos": "Webmaster",
-        "mail": "webmaster@d-sektionen.se",
-        "des": "Kontakta mig för allmänna frågor."
-    },
-    {
-        "img": "files/img/contact/johndoe.png",
-        "name": "Bo Rodin",
-        "pos": "Backendutvecklare",
-        "mail": "bo.rodin@d-sektionen.se",
-        "des": "Kontakta mig för backend-frågor."
-    },
-    {
-        "img": "files/img/contact/johndoe.png",
-        "name": "Markus Hård",
-        "pos": "Eventutvecklare",
-        "mail": "markus.hard@d-sektionen.se",
-        "des": "Kontakta mig för event-frågor."
-    },
-    {
-        "img": "files/img/contact/johndoe.png",
-        "name": "Vakant",
-        "pos": "Frontendutvecklare",
-        "mail": "",
-        "des": "Kontakta mig för frontend-frågor."
-    },
-    {
-        "img": "files/img/contact/johndoe.png",
-        "name": "Algot Johansson",
-        "pos": "Serverutvecklare",
-        "mail": "algot.johansson@d-sektionen.se",
-        "des": "Kontakta mig för server-frågor."
-    },
-    {
-        "img": "files/img/contact/johndoe.png",
-        "name": "Vakant",
-        "pos": "Utvecklare",
-        "mail": "",
-        "des": "Kontakta mig för kodfrågor."
-    },
-    {
-        "img": "files/img/contact/johndoe.png",
-        "name": "Vakant",
-        "pos": "Utvecklare",
-        "mail": "",
-        "des": "Kontakta mig för kodfrågor."
-    }
+  {
+    "img": "files/img/contact/johndoe.png",
+    "name": "Otto Roming",
+    "pos": "Webmaster",
+    "mail": "webmaster@d-sektionen.se",
+    "des": "Kontakta mig för allmänna frågor."
+  },
+  {
+    "img": "files/img/contact/johndoe.png",
+    "name": "Bo Rodin",
+    "pos": "Backendutvecklare",
+    "mail": "bo.rodin@d-sektionen.se",
+    "des": "Kontakta mig för backend-frågor."
+  },
+  {
+    "img": "files/img/contact/johndoe.png",
+    "name": "Markus Hård",
+    "pos": "Eventutvecklare",
+    "mail": "markus.hard@d-sektionen.se",
+    "des": "Kontakta mig för event-frågor."
+  },
+  {
+    "img": "files/img/contact/johndoe.png",
+    "name": "Linh Tran",
+    "pos": "Frontendutvecklare",
+    "mail": "linh.tran@d-sektionen.se",
+    "des": "Kontakta mig för frontend-frågor."
+  },
+  {
+    "img": "files/img/contact/johndoe.png",
+    "name": "Algot Johansson",
+    "pos": "Serverutvecklare",
+    "mail": "algot.johansson@d-sektionen.se",
+    "des": "Kontakta mig för server-frågor."
+  },
+  {
+    "img": "files/img/contact/johndoe.png",
+    "name": "Ermia Behzadifar",
+    "pos": "Utvecklare",
+    "mail": "ermia.behzadifar@d-sektionen.se",
+    "des": "Kontakta mig för kodfrågor."
+  },
+  {
+    "img": "files/img/contact/johndoe.png",
+    "name": "Mattias Walldén",
+    "pos": "Utvecklare",
+    "mail": "mattias.wallden@d-sektionen.se",
+    "des": "Kontakta mig för kodfrågor."
+  }
 ]
